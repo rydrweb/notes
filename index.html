@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patch Notes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #121212;
+            color: white;
+        }
+
+        body {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            --s: 37px;
+            /* control the size */
+
+            --c: #0000, #282828 0.5deg 119.5deg, #0000 120deg;
+            --g1: conic-gradient(from 60deg at 56.25% calc(425% / 6), var(--c));
+            --g2: conic-gradient(from 180deg at 43.75% calc(425% / 6), var(--c));
+            --g3: conic-gradient(from -60deg at 50% calc(175% / 12), var(--c));
+            background: var(--g1), var(--g1) var(--s) calc(1.73 * var(--s)), var(--g2),
+                var(--g2) var(--s) calc(1.73 * var(--s)), var(--g3) var(--s) 0,
+                var(--g3) 0 calc(1.73 * var(--s)) #1e1e1e;
+            background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            margin-top: 100px;
+        }
+
+        a {
+            padding: 0.8em 2em 0.8em 2.5em;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 15px;
+            color: #f6fff6;
+            letter-spacing: 0.3em;
+            text-shadow: -2px 2px 5px #33fd30;
+            background-color: transparent;
+            border: 2px solid #bbfeb1;
+            box-shadow: 0 0 0px 1px #42f112,
+                0 0 10px 2px #33fd30,
+                inset 0 0 0px 1px #42f112,
+                inset 0 0 10px 2px #33fd30;
+            transition: 100ms;
+        }
+
+        a:hover {
+            box-shadow: 0 0 0px 1px #42f112,
+                0 0 10px 2px #33fd30,
+                inset 0 0 0px 1px #42f112,
+                inset 0 0 30px 2px #33fd30;
+            text-shadow: 0 0 10px #33fd30;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Patch Notes</h1>
+        <a href="https://rydrweb.github.io">Back</a>
+        <p style="margin-top: 50px;">Version 1.1</p>
+        <p style="margin-top: 25px;">- Access to 18 games</p>
+        <p>- Added 2 new games</p>
+        <p>- Added Patch Notes</p>
+        <p>- Added Hide This Tab feature</p>
+    </div>
+</body>
+
+</html>
